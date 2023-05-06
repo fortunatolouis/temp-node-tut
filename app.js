@@ -19,3 +19,12 @@ const _ = require('lodash')
 const items = [1,[2,[3,[4]]]]
 const newItems = _.flattenDeep(items);
 console.log(newItems)
+console.log('hello people')
+// npm install will install dependencies
+// located in the current directory's package.json
+// to the current dir
+// which is why we need to save package.json to root
+
+// npm i <packageName> -D to install devDependencies
+// used while creating app
+// not used by app itself, so user of the app would not need it
